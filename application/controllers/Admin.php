@@ -6,7 +6,11 @@ class Admin extends CI_Controller {
  {
   parent::__construct();
   $this->load->model('M_Article','MA'); 
- 
+   if (!$this->ion_auth->logged_in())
+    {
+      //redirect them to the login page
+      redirect('auth', 'refresh');
+    } 
  }
 	public function index()
 	{		

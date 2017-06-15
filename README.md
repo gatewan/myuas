@@ -25,6 +25,7 @@ Project UAS Rekayasa Web 2017 - Dibuat guna memenuhi tugas UAS sekaligus tindak 
 * [CI Markdown Library - Github](https://github.com/jonlabelle/ci-markdown)
 * Dalam rangka merender sintaks markdown di halaman public
 
-
-
+**Ion Auth:**
+* [Authentication Library - Github](https://github.com/benedmunds/CodeIgniter-Ion-Auth)
+* Mengimplementasikan Ion Auth library, dalam rangka mengamankan dashboard admin / halaman admin
 
