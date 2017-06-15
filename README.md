@@ -29,3 +29,6 @@ Project UAS Rekayasa Web 2017 - Dibuat guna memenuhi tugas UAS sekaligus tindak 
 * [Authentication Library - Github](https://github.com/benedmunds/CodeIgniter-Ion-Auth)
 * Mengimplementasikan Ion Auth library, dalam rangka mengamankan dashboard admin / halaman admin
 
+**Pagination:**
+* [Pagination - sitepoint.com](https://www.sitepoint.com/pagination-with-codeigniter/)
+* Dalam rangka mengaktifkan paginasi template (membuat link untuk masing-masing nomornya)
