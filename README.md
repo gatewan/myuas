@@ -1,6 +1,10 @@
 # myuas
 Project UAS Rekayasa Web 2017 - Dibuat guna memenuhi tugas UAS sekaligus tindak lanjut dari project sebelumnya (UTS-Design Template), dengan mengimplementasikan framework CodeIgniter.
 
+# Demo
+http://uasgatewan.hol.es
+user & password -> default ion auth
+
 # Referensi
 **Struktur Database:**
 * [Database - blog.s-widodo.com](http://blog.s-widodo.com/artikel-download-contoh-website-profil-sekolah-dengan-php-mysql.html)
@@ -32,3 +36,10 @@ Project UAS Rekayasa Web 2017 - Dibuat guna memenuhi tugas UAS sekaligus tindak 
 **Pagination:**
 * [Pagination - sitepoint.com](https://www.sitepoint.com/pagination-with-codeigniter/)
 * Dalam rangka mengaktifkan paginasi template (membuat link untuk masing-masing nomornya)
+
+# Bug
+Belum terpecahkan cara memphrase alt/title link image seperti contoh berikut:
+`![enter image description here](http://link.jpg "enter image title here")` sehingga untuk bisa menampilkan / merender ke halaman public "alt/title" tersebut kami hilangkan menjadi
+`![enter image description here](http://link.jpg)`
+
+

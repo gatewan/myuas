@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://www.gatewan.com">
+      <a class="navbar-brand" href="<?=base_url()?>">
 		<img alt="Brand" src="https://2.bp.blogspot.com/-PmUO7dv-KmM/WOjB1sTbDTI/AAAAAAAAPbE/ZhOyrRo-F7MyIeZBskkXwEu0ftbr0nkmgCLcB/s1600/logo.png">
 	  </a>
     </div>
@@ -40,20 +40,20 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-		<li><a href="#">Contact</a></li>
+        <li class="active"><a href="<?=base_url()?>">Home</a></li>
+        <li><a href="http://www.gatewan.com/p/about.html">About</a></li>
+		<li><a href="http://www.gatewan.com/p/contact.html">Contact</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Sinergi</a></li>
+            <li><a href="http://www.gatewan.com/p/daftar-isi.html">Sitemap</a></li>
+            <li><a href="http://sinergi.gatewan.com">Sinergi</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Forum</a></li>
+            <li><a href="http://forum.gatewan.com">Forum</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Kamus HTML</a></li>
-			<li><a href="#">Kamus PHP</a></li>
-			<li><a href="#">Kamus DBMS</a></li>
+            <li><a href="http://www.gatewan.com/p/kamus-html.html">Kamus HTML</a></li>
+			<li><a href="http://www.gatewan.com/p/kamus-php.html">Kamus PHP</a></li>
+			<li><a href="http://www.gatewan.com/p/kamus-dbms.html">Kamus DBMS</a></li>
           </ul>
         </li>
       </ul>
@@ -65,7 +65,7 @@
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Sign Up</a></li>
-		<li><a href="#">Login</a></li>
+		<li><a href="<?=base_url()?>auth/login">Login</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

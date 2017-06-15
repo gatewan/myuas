@@ -11,7 +11,7 @@ class Go extends CI_Controller
         $config = array();
         $config["base_url"] = base_url() . "Go/example1";
         $config["total_rows"] = $this->Pagination->record_count();
-        $config["per_page"] = 2;
+        $config["per_page"] = 3;
         $config["uri_segment"] = 3;
         $this->pagination->initialize($config);
 

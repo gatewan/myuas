@@ -64,11 +64,11 @@
                         </li>
                     </ul>
                     <ul class="social">
-                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="https://www.facebook.com/Gatewan/"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="https://twitter.com/gatewan"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="https://plus.google.com/u/0/+WawanBeneran"> <i class="fa fa-google-plus">   </i> </a> </li>
                         <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                        <li> <a href="https://www.youtube.com/user/gatewawan"> <i class="fa fa-youtube">   </i> </a> </li>
                     </ul>
                 </div>
             </div>
