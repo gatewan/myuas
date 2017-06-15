@@ -57,15 +57,15 @@ class Admin extends CI_Controller {
         }
  
     }
+/* ==.Disable and Migrate this method to C_Article Controller.==
     public function detail($id){ //fungsi detail article
         $data['title'] = 'Detail Artikel'; //judul title
-        $data['qarticle'] = $this->MA->get_article_byid($id); //query model article sesuai id
- 
-        $this->load->view('admin/index',$data); //meload views detail article
+        $data['isi'] = $this->MA->get_article_byid($id); //query model article sesuai id
+        $this->load->view('s_article',$data); //meload views detail article
     }
-	
+*/
     public function hapus($id){ //fungsi hapus article sesuai dengan id
- 
+
         $this->MA->del_article($id);
         $this->session->set_flashdata("pesan", "<div class=\"alert alert-danger\" id=\"alert\"><i class=\"glyphicon glyphicon-ok\"></i> article berhasil dihapus</div>");
         redirect('Admin');
