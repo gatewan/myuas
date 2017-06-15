@@ -9,7 +9,7 @@ class Admin extends CI_Controller {
  
  }
 	public function index()
-	{
+	{		
 		$data["title"] = "<h1>Panel Admin</h1>";
 		$data["array_emp"] = $this->MA->get_article();
 		$this->load->view('admin/index',$data);
@@ -17,7 +17,7 @@ class Admin extends CI_Controller {
 	
 	 public function form(){
         //ambil variabel URL
-        $mau_ke                 = $this->uri->segment(3);
+        $mau_ke                = $this->uri->segment(3);
         $id                    = $this->uri->segment(4);
          
         //ambil variabel dari form

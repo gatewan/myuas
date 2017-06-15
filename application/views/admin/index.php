@@ -2,6 +2,7 @@
 
 <div class="well" style="text-align:center">
 <?php echo heading($title);?>
+<a class="btn btn-default" href="<?=base_url()?>/auth/logout">Logout</a>
 </div>
 <div class="container">
 <?php $this->load->view('admin/list_article');?>
